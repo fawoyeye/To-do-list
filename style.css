@@ -17,3 +17,4 @@ section{background:white;display:flex;justify-content:center;align-items:center;
 .index2 p{font-size:1.5rem;width: 75vw;}
 .paragraph{font-size:0.5rem;margin:5px;}
 .toDoContainer{display:flex;flex-direction:column;justify-content:flex-start;}
+.day{text-align:center;vertical-align:center;padding: 10px 0px;font-size:2rem;font-family:helvetica;width: 75vw;height: 2rem;}
