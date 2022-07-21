@@ -33,7 +33,7 @@ switch(day){
 			switch(currentHour){
 							case 24: case 23: case 1: case 2: case 3: case 4: case 5: time.innerHTML =`It's ${add}, You are awake working? Welldone ${name}`;
 		break;
-		case 6: case 7: case 8: case 9: case 10: case 11: case 12: time.innerHTML =`It's ${add}, Good morning ${name}!`;
+		case 6: case 7: case 8: case 9: case 10: case 11: case 12: time.innerHTML =`It's ${add}, Good Morning ${name}!`;
 		break;
 		case 13: case 14: case 15: case 16: time.innerHTML =`It's ${add}, Good Afternoon ${name}`;
 		break;
