@@ -15,11 +15,11 @@ var add =`${hourForTime}:${minute}`
 switch(day){
 				case 1: dayParagraph.innerHTML="Motivational Monday";
 				break;
-					case 2: dayParagraph.innerHTML="To-do list Tueday";
+					case 2: dayParagraph.innerHTML="To-do list Tuesday";
 				break;
 					case 3: dayParagraph.innerHTML="Working my ass out Wednesday";
 				break;
-					case 4: dayParagraph.innerHTML="Turning it up Thurday";
+					case 4: dayParagraph.innerHTML="Turning up Thurday";
 				break;
 					case 5: dayParagraph.innerHTML="Fry the work Friday";
 				break;
