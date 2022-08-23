@@ -10,8 +10,10 @@ var button = document.querySelector('button');
 var inputField = document.querySelector('input');
 var container = document.querySelector('.toDoContainer');
 button.onclick = function(){
-				
-				var create = document.createElement('p');
+
+if(inputField.value.length<1){alert("Enter a valid input")};
+			
+		var create = document.createElement('p');
 				
 				create.innerHTML = inputField.value;
 			container.appendChild(create);
@@ -20,7 +22,14 @@ button.onclick = function(){
 			create.onclick = function(){create.style.textDecoration="line-through"};
 			create.ondblclick =function(){create.style.display="none"};
 			
+	
+		
 			}
+			
+			
 		function al(){	alert("Click on your text to cross it out and double click on it to delete it");}
 
-setTimeout(al, 5000);
+setTimeout(al, 10000);
+
+
+
