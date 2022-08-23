@@ -7,7 +7,7 @@ border-radius:50%;margin: 50px auto;
 p{color: #6C63FF
 ;font-weight:300;font-size:2rem;}
 .time{text-align:center;vertical-align:center;padding: 5px 0px;font-size:2rem;font-family:helvetica;width: 75vw;height: 2rem;}
-button{border:none;width: 200px;height: 2rem;border-radius: 5px;background: #6C63FF
+button{border:none;width: 150px;height: 2rem;border-radius: 5px;background: #6C63FF
 ;color: white;}
 section{background:white;display:flex;justify-content:center;align-items:center;flex-direction:column;font-family:helvetica;}
 /*index2 index2 index2*/
@@ -31,5 +31,5 @@ section{background:white;display:flex;justify-content:center;align-items:center;
 button{position: relative;}
 		img{height:50vh;width:50vh;margin: auto;position: relative;}		
 		.index2 p{}
-		.index2 input{margin-bottom:30px}
+		.index2 input{width:350px;margin-bottom:30px}
 }
